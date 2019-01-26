@@ -1,0 +1,4 @@
+#Sat Jan 26 10:26:42 EST 2019
+base.0=/Users/mathdev305/certified_android/completed_exercise1/TiltSpot_start/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex

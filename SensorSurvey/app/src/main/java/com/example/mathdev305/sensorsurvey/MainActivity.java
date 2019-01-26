@@ -53,21 +53,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             mTextSensorProximity.setText(sensor_error);
         }
 
-        if(mSensorHumidity == null){
+        if(mSensorHumidity == null) {
             mTextSensorHumidity.setText(sensor_error);
         }
-
-//        mSensorManager = (SensorManager)getSystemService(Context.SENSOR_SERVICE);
-//        List<Sensor> sensorList =  mSensorManager.getSensorList(Sensor.TYPE_ALL);
-//
-//        StringBuilder sensorText = new StringBuilder();
-//        for(Sensor sensor : sensorList){
-//            sensorText.append(sensor.getName()).append(System.getProperty("line.separator"));
-//        }
-//
-//        TextView textView = findViewById(R.id.sensor_list);
-//        textView.setText(sensorText);
-
     }
 
     @Override
